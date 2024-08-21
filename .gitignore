@@ -1,0 +1,9 @@
+.github/
+.DS_Store
+.terraform/
+*.tfstate
+*.tfplan
+.terraform.tfstate
+.terraform.tfstate.backup
+*.tfvars
+!*.auto.tfvars
