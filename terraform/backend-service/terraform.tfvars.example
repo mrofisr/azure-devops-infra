@@ -1,0 +1,8 @@
+app_name = "backend-app"
+tags = {
+  environment = "dev"
+}
+app_service_plan_name     = "backend-app-service-plan"
+resource_group_name       = "rg-dev"
+resource_group_location   = "southeastasia"
+virtual_network_subnet_id = "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg-dev/providers/Microsoft.Network/virtualNetworks/vnet-dev/subnets/subnet-dev"

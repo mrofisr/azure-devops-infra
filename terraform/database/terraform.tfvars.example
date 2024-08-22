@@ -1,0 +1,9 @@
+resource_group_name     = "rg-dev"
+resource_group_location = "southeastasia"
+subnet_id               = "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg-dev/providers/Microsoft.Network/virtualNetworks/vnet-dev/subnets/subnet-dev"
+sql_db_name             = "db-dev"
+admin_username          = "azureadmin"
+admin_password          = null
+tags = {
+  environment = "dev"
+}
