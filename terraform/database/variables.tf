@@ -10,6 +10,11 @@ variable "resource_group_name" {
   default     = "myResourceGroup"
 }
 
+variable "subnet_id" {
+  type        = string
+  description = "The ID of the subnet to associate with the SQL logical server."
+}
+
 variable "sql_db_name" {
   type        = string
   description = "The name of the SQL Database."

@@ -3,6 +3,7 @@
 *.tfstate
 *.tfplan
 .terraform.tfstate
-.terraform.tfstate.backup
+terraform.tfstate.backup
 *.tfvars
 !*.auto.tfvars
+.env
